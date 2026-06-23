@@ -121,7 +121,7 @@ class RouteView(APIView):
             "total_gallons_needed": optimization_result["total_gallons_needed"],
             "number_of_stops": optimization_result["number_of_stops"],
             "fuel_stops": optimization_result["fuel_stops"],
-            "route_waypoints": sampled,          # compact: ~150 pts instead of ~5000
+            "route_waypoints": sampled,          
             "cached": False,
         }
 

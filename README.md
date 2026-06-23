@@ -50,10 +50,20 @@ python manage.py runserver
 http://127.0.0.1:8000/api/route/
 ```
 **Request:**
+**Example 1:New York to Los Angeles**
+
 ```json
 {
   "start": "New York, NY",
   "finish": "Los Angeles, CA"
+}
+```
+
+**Example 2:Chicago to Houston**
+```json
+{
+    "start": "Chicago, IL",
+    "finish": "Houston, TX"
 }
 ```
 

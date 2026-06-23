@@ -1,4 +1,4 @@
-# ⛽ Fuel Route API
+# Fuel Route API
 
 A Django REST API that finds the most cost-effective fuel stops along any US driving route.
 
